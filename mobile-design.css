@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"); 
+
+
+
+
+span {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.inbutton {
+    position: relative;
+    width: 400px;
+    
+}
+
+::placeholder{
+    color:#d6b5a8;
+}
+
+input {
+    color:#d6b5a8;
+    background-color: #fcf4f1;
+    border: 1px solid rgb(206, 161, 147);
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    width: 72%;
+    height: 30px;
+    border-radius: 25px;
+    
+}
+
+
+button {
+    color: white;
+    border-radius: 25px;
+    height: 35px;
+    background-color: rgb(243, 179, 158);
+    position: absolute;
+   
+    transform: translateX(-33px);
+    cursor: pointer;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: -2px;
+    width: 55px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+.icon {
+
+    position: absolute;
+    top: 8px;
+    left: 280px;
+}
